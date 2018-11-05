@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/api"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/app"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry excluding="**/*.java" kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="src" path="target/generated/cxf"/>
+	<classpathentry kind="con" path="MULE_RUNTIME"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/activemq/activemq-all/5.15.0/activemq-all-5.15.0.jar" sourcepath="M2_REPO/org/apache/activemq/activemq-all/5.15.0/activemq-all-5.15.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1.jar" sourcepath="M2_REPO/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" sourcepath="M2_REPO/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/hazelcast/hazelcast/3.8.2/hazelcast-3.8.2.jar" sourcepath="M2_REPO/com/hazelcast/hazelcast/3.8.2/hazelcast-3.8.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/hazelcast/hazelcast-spring/3.8.2/hazelcast-spring-3.8.2.jar" sourcepath="M2_REPO/com/hazelcast/hazelcast-spring/3.8.2/hazelcast-spring-3.8.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar" sourcepath="M2_REPO/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-core/2.9.3/jackson-core-2.9.3.jar" sourcepath="M2_REPO/com/fasterxml/jackson/core/jackson-core/2.9.3/jackson-core-2.9.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-databind/2.9.3/jackson-databind-2.9.3.jar" sourcepath="M2_REPO/com/fasterxml/jackson/core/jackson-databind/2.9.3/jackson-databind-2.9.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/javax/servlet/jstl/1.2/jstl-1.2.jar" sourcepath="M2_REPO/javax/servlet/jstl/1.2/jstl-1.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" sourcepath="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar">
+		<attributes>
+			<attribute name="org.mule.tooling.scope" value="provided"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-jdbc/3.0.4.RELEASE/spring-jdbc-3.0.4.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-jdbc/3.0.4.RELEASE/spring-jdbc-3.0.4.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-tx/3.0.4.RELEASE/spring-tx-3.0.4.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/javax/validation/validation-api/2.0.0.Final/validation-api-2.0.0.Final.jar" sourcepath="M2_REPO/javax/validation/validation-api/2.0.0.Final/validation-api-2.0.0.Final-sources.jar"/>
+	<classpathentry kind="lib" path="/home/benni/.m2/repository/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
